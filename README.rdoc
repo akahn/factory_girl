@@ -80,7 +80,7 @@ The default strategy can be overriden:
 
   user = Factory(:user)
 
-No matter which startegy is used, it's possible to override the defined attributes by passing a hash:
+No matter which strategy is used, it's possible to override the defined attributes by passing a hash:
 
   # Build a User instance and override the first_name property
   user = Factory.build(:user, :first_name => 'Joe')
